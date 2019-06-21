@@ -1,0 +1,87 @@
+n-style.css
+
+h1  {
+    font-size: 200px;
+    text-align: left;
+    
+}
+
+p { 
+    width: 50px;
+    height: 50px;
+    -webkit-transition: width 3s, height 3s, -webkit-       transform 5s; /* safari */
+}
+
+p:hover {
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(330deg); /* safari */
+    transform: rotate(330deg);
+}
+
+h2  {
+    font-size: 65px;
+    text-align: right;
+    color: #666699;
+    text-shadow: 10px 17px 5px darkred;
+    margin: 2px 10px 20px 100px;
+}
+
+p   {
+    font-size: 200px;
+    color: #666699;
+    text-align: left;
+    text-shadow: 10px 17px 5px darkred;
+    margin: 5px 100px 0px 20px;
+}
+
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li  {
+    display: inline;
+}
+
+body {
+    background: linear-gradient(to left, #666699 0%, #990000 100%);
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+div {
+    color: black;
+    margin-top:65px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    
+}
+
+div {
+    width: 1320px;
+    height: 455px;
+    color: black;
+    background-color: background: linear-gradient(to left, #666699 0%, #990000 100%);
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #990000;}
+    to {background-color: purple;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #990000;}
+    to {background-color: purple;}
+}
+
+div:hover   {
+    animation: repeat;
+}
