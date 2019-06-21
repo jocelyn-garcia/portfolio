@@ -1,0 +1,21 @@
+h-style.css
+
+body {
+	background: linear-gradient(to bottom right, #6600cc 0%, #990000 100%);
+	font-family: "jaapokki enchance regular", jaapokki enchance;
+	margin: 50px;
+	border-width: 15px;
+	border-style: dashed;
+	border-color: grey;
+	text-align: center;
+}
+
+p	{
+	font-family: "jaapokki substract regular", jaapokki substract;
+}
+
+h1 {
+	font-family: "jaapokki enchance regular", jaapokki enchance;
+	font-size: 45px;
+	text-align: center;
+}
